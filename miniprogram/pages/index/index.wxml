@@ -1,0 +1,16 @@
+<image class="image" src="{{imgPath}}" mode="aspectFill"></image>
+<view class="info" wx:for="{{result}}">
+  <view class='item'>
+    {{item.name}}:{{item.score}}
+  </view>
+</view>
+
+<view class="controls">
+  <button class="btn-start" hover-class="btn-start-hover" bindtap="handleSelect" bindlongpress='handleSelect'>
+    <text class="text">短按/长按</text>
+  </button>
+  <view class="placehoder"></view>
+  <button class="btn-start" hover-class="btn-start-hover" bindtap="oops" bindlongpress='oops'>
+    <text class="text">分析</text>
+  </button>
+</view>
