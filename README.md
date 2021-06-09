@@ -10,3 +10,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+菜品识别.
+
+i realize that? in foreign, there is no miniprogram?
